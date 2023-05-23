@@ -1,0 +1,57 @@
+.trendingBody{
+    width: 900px;
+    margin-left: 226px;
+}
+.imgTrending{
+    width: 240px;
+}
+.listImgTrending{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nameAppple{
+    width: 240px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 8px;
+}
+.fomatPrice{
+    text-align: center;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fffcfc;
+    padding: 20px;
+    z-index: 999;
+    width: 800px;
+}
+.popupMain{
+    display: flex;
+}
+.imgTrendingPop{
+    width: 50%;
+    height: 50%;
+    /* padding-top: 268px; */
+}
+.productName{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+.productDecs{
+    font-weight: 200;
+    font-size: unset;
+    font-style: italic;
+}
+.productButton{
+    height: 5px;
+    background-color: #fff;
+    border: none;
+}
+  

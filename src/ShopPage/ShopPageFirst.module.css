@@ -1,0 +1,14 @@
+.ShopPageFirst{
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.headerShopPage{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}

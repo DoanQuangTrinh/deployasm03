@@ -1,0 +1,8 @@
+.paragraphDetails >p{
+    margin: 0;
+    font-weight: 300;
+    font-style: italic;
+}
+.paragraphDetails{
+    padding-bottom: 50px;
+}

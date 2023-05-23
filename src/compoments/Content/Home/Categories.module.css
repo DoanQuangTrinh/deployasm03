@@ -1,0 +1,48 @@
+.categories{
+    margin: 0 auto;
+    width: 900px;
+}
+.iphoneMac{
+    display: flex;
+    column-gap: 10px;
+}
+.iphoneMac >img{
+    width: 445px;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+.ipadWatch{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.ipadWatch > img{
+    width: 294px;
+    opacity: 1; 
+    transition: opacity 0.3s ease; 
+}
+.iphoneMac >img:hover{
+    opacity: 0.8;
+}
+.ipadWatch > img:hover{
+    opacity: 0.8;
+}
+.titleCategories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.carefully{
+    font-size: 13px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+.brosweour{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+}

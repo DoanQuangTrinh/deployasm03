@@ -1,0 +1,53 @@
+.SignupPageMain{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.imgBannerSignup{
+    width: 100%;
+    height: 721px;
+}
+.signupPageHeader{
+    position: fixed;
+    top: 50px;
+    left: 300px;
+    padding: 80px 80px 40px 80px;
+}
+.signupPageHeader>form{
+    display: flex;
+    flex-direction: column;
+}
+.signupPageHeader{
+    background-color: #fff;
+    text-align: center;
+}
+.titleHaerderSignup{
+    font-weight: 300;
+    font-size: 42px;
+    font-style: italic;
+    font-family: unset;
+    padding-bottom: 50px;
+}
+.formSignup >input{
+    width: 400px;
+    height: 70px;
+    border: revert;
+}
+.footerSignup{
+    margin-top: 10px;
+}
+.formSignup>button{
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgb(37, 25, 25);
+    color: #fff;
+    border: none;
+}
+.footerSignup{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.handleClicksignup{
+    color: rgb(27, 137, 232);
+}

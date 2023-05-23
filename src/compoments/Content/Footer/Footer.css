@@ -1,0 +1,17 @@
+.footer{
+    background-color: #000;
+    padding: 80px;
+}
+.customerFooter > h5 {
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+}
+.listLinkFooter >li > a{
+    text-decoration: none;
+    color: #a39c9ce1;
+}
+.row{
+    width: 900px; 
+    margin-left: 194px !important;
+}

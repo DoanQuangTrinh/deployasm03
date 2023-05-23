@@ -1,0 +1,16 @@
+.imgProducts{
+    width: 200px;
+}
+.listProductPrice{
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.namePhone{
+    font-size: 16px;
+    text-align: center;
+
+}
+.fomatPriceProducts{
+    text-align: center;
+}

@@ -1,0 +1,91 @@
+.CheckoutPageMain{
+    width: 1200px;
+    margin: 0 auto;
+}
+.checkoutHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 67px;
+    background-color: #e4eded90;
+}
+.checkouttitletwo{
+    display: flex;
+    margin-top: 16px;
+}
+.checkouttitletwo>p{
+    font-weight: 500;
+    font-style: italic;
+}
+.checkoutTitle{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 400;
+}
+.checkoutpagetitle{
+    font-weight: 300;
+    padding-left: 8px;
+}
+.formintermationdetails>div{
+    display: flex;
+    flex-direction: column;
+}
+.mainformintermationdetails{
+    width: 700px;
+}
+.orderSummaryTitle{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+.editforminputdetails{
+    margin-bottom: 28px;
+}
+.editforminputdetails>label{
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.editforminputdetails>input{
+    padding: 6px;
+}
+.palaceoderCheckout{
+    border: none;
+    padding: 8px 30px;
+    background-color: #000;
+    color: #fff;
+    font-style: italic;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+.mainFooterlast{
+    display: flex;
+}
+.oderlastdetails{
+    background-color: #e4eded90;
+    height: 100%;
+    padding: 47px;
+}
+.youroderpagelast{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 23px;
+}
+.orderSummaryItem{
+    list-style: none;
+    display: flex;
+
+}
+.productnamelats{
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin-left: -30px;
+    margin-right: 5px;
+}
+.orderSummaryTotal{
+    display: flex;
+    gap: 10px;
+}

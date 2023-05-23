@@ -1,0 +1,40 @@
+.homeHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    width: 900px;
+    margin: 0 auto;
+}
+.buttonNavbar{
+    border: none;
+    background-color: #fff;
+    font-weight: 500;
+}
+.headerFirst >button:first-child{
+    color: pink;
+    font-style: italic;
+}
+/* .headerFirst>button:nth-child(2){
+} */
+.headerTwo >button{
+    /* font-weight: 500; */
+    font-size: 20px;
+    font-style: italic;
+}
+.headerLast{
+    display: flex;
+    column-gap: 10px;
+}
+.iconNavbar{
+    color: #b19d9d8f;
+}
+.contentHeader{
+    height: 400px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(238, 173, 94);
+    text-align: center;
+}
+.FullnameNavbar{
+    font-weight: 500;
+}
